@@ -1,7 +1,8 @@
-
 <h1 align="center">Hi, I'm Masego 👋</h1>
 <h3 align="center">Data Analyst & BI Developer · Johannesburg, ZA 📍</h3>
-
+<p align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDQ2amZkcmYyN3N6MmJqb2ZnYnV5ZDB0bGJuZmF5bjg2MDhyaXpwZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JWuBH9rCO2uZuHBFpm/giphy.gif" alt="Data Analytics Banner" width="850" height="450" />
+</p>
 <p align="center">
   <a href="https://linkedin.com/in/masego-mashigo-68a1b3240">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" />
@@ -9,9 +10,6 @@
   <a href="mailto:mashigokk@outlook.com">
     <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" />
   </a>
-</p>
-<p align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDQ2amZkcmYyN3N6MmJqb2ZnYnV5ZDB0bGJuZmF5bjg2MDhyaXpwZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JWuBH9rCO2uZuHBFpm/giphy.gif" alt="Data Analytics Banner" width="850" height="450" />
 </p>
 
 ---
@@ -58,6 +56,39 @@ I'm currently deepening my expertise in **Microsoft Fabric** and advancing along
 
 ---
 
+## 🗂️ Featured Projects
+
+> 🚧 *Projects are currently in development and will be published by end of month. Watch this space — full repos, screenshots, and write-ups are on the way.*
+
+---
+
+### 📊 Sports Analytics Dashboard
+An interactive Power BI report currently being developed on real match and player performance data. The goal is to surface coaching insights through drill-through pages and dynamic KPI cards — no more digging through spreadsheets to find patterns.
+
+**Planned Tools:** Power BI · DAX · PostgreSQL · Python (pandas)
+
+> 🔜 *Repo and screenshots dropping end of month*
+
+---
+
+### 🏢 Business Sales Performance Report
+An end-to-end reporting solution in the works — pulling transactional data from SQL Server into a Power BI semantic model with automated refresh and an executive summary page built for non-technical stakeholders. One source of truth, updated daily.
+
+**Planned Tools:** MS SQL Server · Power BI · DAX · Azure Data Factory
+
+> 🔜 *Repo and screenshots dropping end of month*
+
+---
+
+### 🔄 ETL Data Pipeline
+An automated ingestion pipeline being built with Apache Airflow to clean and load raw CSV data into a PostgreSQL warehouse on a daily schedule, complete with error alerting and data quality logging.
+
+**Planned Tools:** Apache Airflow · PostgreSQL · Python · pandas
+
+> 🔜 *Repo and screenshots dropping end of month*
+
+---
+
 ## 💻 Tech Stack
 
 **Languages**
@@ -94,6 +125,32 @@ I'm currently deepening my expertise in **Microsoft Fabric** and advancing along
 
 ---
 
+## 🤝 Need a Data Analyst?
+
+I take on **freelance projects** alongside my full-time work. If your business has messy data and needs clear answers, I can help with:
+
+- 📊 **Power BI dashboards** — from design to deployment
+- 🗄️ **SQL reporting** — queries, stored procedures, data models
+- 🔄 **Data pipelines** — automated ingestion and transformation
+- 🧹 **Data clean-ups** — turning spreadsheet chaos into structured data
+
+No jargon, no fluff — just useful insights your team will actually act on.
+
+📧 **[mashigokk@outlook.com](mailto:mashigokk@outlook.com)** · 💼 **[LinkedIn](https://linkedin.com/in/masego-mashigo-68a1b3240)**
+
+---
+
+## 😄 A Bit About Me
+
+- 🏟️ I build data projects on **real sports datasets** — because data is more fun when you care about the subject
+- ☕ My DAX measures are written best after a strong cup of coffee
+- 🧩 I've built more dashboards than I've cooked meals this year (the data checks out)
+- 🌍 Based in **Johannesburg** — working with clients locally and remotely across Africa and beyond
+- 📚 I believe the best analysts are the ones who **never stop asking "why?"**
+- 🎯 Currently on a mission to become a **Microsoft Certified Fabric Analytics Engineer**
+
+---
+
 ## 📊 GitHub Stats
 
 ![Masego's GitHub Stats](https://github-readme-stats.vercel.app/api?username=masegoleroux-commits&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
@@ -101,6 +158,10 @@ I'm currently deepening my expertise in **Microsoft Fabric** and advancing along
 ![GitHub Streak](https://streak-stats.demolab.com/?user=masegoleroux-commits&theme=dark&hide_border=false)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=masegoleroux-commits&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=masegoleroux-commits&theme=react-dark&hide_border=true)
+
+![Profile Views](https://visitcount.itsverts.com/api?id=masegoleroux-commits&icon=0&color=0)
 
 ---
 
