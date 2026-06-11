@@ -62,11 +62,17 @@ I'm currently deepening my expertise in **Microsoft Fabric** and advancing along
 
 ---
 
-### 📊 Sports Analytics Dashboard
-An interactive Power BI report currently being developed on real match and player performance data. The goal is to surface coaching insights through drill-through pages and dynamic KPI cards — no more digging through spreadsheets to find patterns.
+### 📊 Comprehensive Sports Analytics Ecosystem An interactive
+Power BI platform transforming raw data into actionable intelligence across all levels of a sports organization. Moving beyond basic match stats, this all-in-one reporting suite replaces scattered spreadsheets with centralized, dynamic KPI cards and deep-dive drill-through pages designed for multiple departments.
 
-**Planned Tools:** Power BI · DAX · PostgreSQL · Python (pandas)
+Core Modules:
 
+Coaching & Tactics: Match data analysis, player performance tracking, and tactical pattern recognition.
+Sports Science & Health: Player workload management, fatigue tracking, and predictive injury modelling.
+Scouting & Recruitment: Data-driven player valuation, transfer market analysis, and squad optimization.
+Commercial & Operations: Ticket sales forecasting, attendance tracking, and fan engagement metrics.
+
+**Planned Tools: Power BI · DAX · PostgreSQL · Python (pandas, scikit-learn)
 > 🔜 *Repo and screenshots dropping end of month*
 
 ---
