@@ -16,9 +16,9 @@
 
 ## 💫 About Me
 
-I'm a **Cloud & AI Software Engineer** with an Information Systems and Computer Science background and a foundation in data analytics and BI. I build, automate, and deploy software end-to-end — from writing clean Python and SQL, to designing data pipelines on Azure and AWS, to integrating AI into real products and shipping them through reliable DevOps workflows.
+I'm a Cloud & AI Software Engineer with a background in Systems Engineering, grounded in Information Systems and Computer Science, and a foundation in data analytics and BI. I design, build, automate, and deploy systems end-to-end — from defining requirements and architecture, to writing clean Python and SQL, to building data pipelines on Azure and AWS, integrating AI into real products, and shipping them through reliable DevOps workflows.
 
-My data background means I think in terms of outcomes: every system I build should produce something people can trust and act on. I also bring a **project management mindset** — planning clearly, owning delivery, and communicating progress in plain language to technical and non-technical stakeholders alike.
+Systems engineering taught me to see the whole picture: how components, people, and processes fit together, and how to design solutions that are reliable, scalable, and easy to maintain. My data background means I think in terms of outcomes — every system I build should produce something people can trust and act on. I also bring a project management mindset: planning clearly, managing the full system lifecycle, owning delivery, and communicating progress in plain language to technical and non-technical stakeholders alike.
 
 > *"I don't just write code — I deliver working solutions."*
 
