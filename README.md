@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Masego 👋</h1>
-<h3 align="center">Cloud & AI Software Engineer · DevOps · Project Manager · Johannesburg, ZA 📍</h3>
+<h3 align="center">Cloud & AI Software Engineer · DevOps · ZA 📍</h3>
 <p align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExM29tdnI0MXZoYmd1eTVneXY3djAxN3Bha3BlcnYwdHJib2dnYnpsdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JpLVqOg8xTY3EmoYF7/giphy.gif" alt="Banner" width="850" height="450" />
 </p>
