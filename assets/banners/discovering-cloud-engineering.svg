@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Discovering Cloud Engineering">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#111A2E"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.82" cy="0.5" r="0.55">
+    <stop offset="0" stop-color="#FF9900" stop-opacity="0.30"/><stop offset="1" stop-color="#FF9900" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FF9900"/><stop offset="1" stop-color="#FFC46B"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/>
+  </pattern>
+</defs>
+<rect width="1280" height="320" rx="18" fill="url(#bg)"/>
+<rect width="1280" height="320" rx="18" fill="url(#grid)"/>
+<rect width="1280" height="320" rx="18" fill="url(#glow)"/>
+<rect x="0" y="0" width="1280" height="6" fill="url(#bar)"/>
+<text x="64" y="78" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="16" letter-spacing="3" fill="#FF9900">AWS · TERRAFORM · CI/CD · SECURITY</text>
+<text x="64" y="142" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="54" font-weight="800" fill="#FFFFFF">Discovering Cloud Engineering</text>
+<text x="64" y="190" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" fill="#9FB0C8">Real AWS systems built from code, tested, documented and torn down</text>
+<rect x="64" y="236" width="185" height="34" rx="17" fill="#FF9900" fill-opacity="0.14" stroke="#FF9900" stroke-opacity="0.55"/><text x="157" y="258" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">12 projects shipped</text>
+<rect x="261.4" y="236" width="168" height="34" rx="17" fill="#FF9900" fill-opacity="0.14" stroke="#FF9900" stroke-opacity="0.55"/><text x="346" y="258" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">37 on the roadmap</text>
+<rect x="441.59999999999997" y="236" width="99" height="34" rx="17" fill="#FF9900" fill-opacity="0.14" stroke="#FF9900" stroke-opacity="0.55"/><text x="491" y="258" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">Terraform</text>
+<rect x="553.0" y="236" width="142" height="34" rx="17" fill="#FF9900" fill-opacity="0.14" stroke="#FF9900" stroke-opacity="0.55"/><text x="624" y="258" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">GitHub Actions</text>
+<g transform="translate(900,40)"><line x1="40" y1="60" x2="170" y2="120" stroke="#FF9900" stroke-opacity="0.5" stroke-width="2.5" stroke-dasharray="6 6"/><line x1="40" y1="180" x2="170" y2="120" stroke="#FF9900" stroke-opacity="0.5" stroke-width="2.5" stroke-dasharray="6 6"/><line x1="170" y1="120" x2="300" y2="50" stroke="#FF9900" stroke-opacity="0.5" stroke-width="2.5" stroke-dasharray="6 6"/><line x1="170" y1="120" x2="300" y2="190" stroke="#FF9900" stroke-opacity="0.5" stroke-width="2.5" stroke-dasharray="6 6"/><line x1="300" y1="50" x2="300" y2="190" stroke="#FF9900" stroke-opacity="0.5" stroke-width="2.5" stroke-dasharray="6 6"/><circle cx="40" cy="60" r="24" fill="#0B1220" stroke="#FFC46B" stroke-width="3"/><circle cx="40" cy="60" r="8" fill="#FFC46B"/><circle cx="40" cy="180" r="24" fill="#0B1220" stroke="#FFC46B" stroke-width="3"/><circle cx="40" cy="180" r="8" fill="#FFC46B"/><circle cx="170" cy="120" r="34" fill="#0B1220" stroke="#FF9900" stroke-width="3"/><circle cx="170" cy="120" r="11" fill="#FF9900"/><circle cx="300" cy="50" r="24" fill="#0B1220" stroke="#FFC46B" stroke-width="3"/><circle cx="300" cy="50" r="8" fill="#FFC46B"/><circle cx="300" cy="190" r="24" fill="#0B1220" stroke="#FFC46B" stroke-width="3"/><circle cx="300" cy="190" r="8" fill="#FFC46B"/><path d="M130 255 q0 -26 28 -26 q8 -22 34 -18 q22 -6 30 18 q26 2 24 26 z" fill="#FF9900" fill-opacity="0.18" stroke="#FF9900" stroke-width="2.5"/></g>
+</svg>

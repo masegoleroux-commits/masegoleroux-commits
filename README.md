@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Masego 👋</h1>
-<h3 align="center">Cloud & DevOps Engineer · AWS · Terraform · CI/CD · ZA 📍</h3>
+<h3 align="center">Cloud & DevOps Engineer · AWS · Azure · Terraform · SQL Data Engineering · ZA 📍</h3>
 
 <p align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExM29tdnI0MXZoYmd1eTVneXY3djAxN3Bha3BlcnYwdHJib2dnYnpsdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JpLVqOg8xTY3EmoYF7/giphy.gif" alt="Banner" width="850" height="450"/>
@@ -12,84 +12,54 @@
   <a href="mailto:mashigokk@outlook.com">
     <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" />
   </a>
+  <img src="https://img.shields.io/badge/Open%20to%20work-Johannesburg%20%7C%20Remote-2EA043" />
+</p>
+
+<p align="center">
+  <a href="#repos">Repositories</a> ·
+  <a href="#principles">Principles</a> ·
+  <a href="#skills">Skills</a> ·
+  <a href="#stack">Tech Stack</a> ·
+  <a href="#contact">Contact</a>
 </p>
 
 ---
 
 ## 💫 About Me
 
-I'm a Cloud & DevOps Engineer with a background in Systems Engineering, Information Systems, Computer Science and BI. I build AWS infrastructure entirely as code (Terraform), ship services through pipelines that test, scan and deploy on every push, and design for failure from the start: automated rollback, dead-letter queues, and audit logging are defaults, not extras.
+I'm a Cloud & DevOps Engineer with a background in Systems Engineering, Information Systems, Computer Science and BI. I build cloud infrastructure entirely as code (Terraform), ship services through pipelines that test, scan and deploy on every push, and design for failure from the start: automated rollback, dead-letter queues, and audit logging are defaults, not extras.
 
-Every project I build ships with the same engineering artefacts a production team would expect: an architecture diagram, **Architecture Decision Records (ADRs)** explaining the trade-offs, a **runbook** for operating it, automated tests, and a **teardown script** so nothing is left running and costing money. Systems engineering taught me to reason about the whole system — components, failure modes, security boundaries, and the people who will operate it after me.
+Every project ships with what a production team would expect: an architecture diagram, **Architecture Decision Records (ADRs)**, a **runbook**, automated tests, and a **teardown script** so nothing is left running and costing money.
 
 > *"I don't just write code — I deliver working, documented, operable systems."*
->
-> 👉 **See the proof:** six AWS projects in **[Discovering-Cloud-Engineering](https://github.com/masegoleroux-commits/Discovering-Cloud-Engineering)**
+
+### 📈 At a glance
+
+| ☁️ AWS projects shipped | 🗄️ SQL projects built & tested | 🎫 Azure service desk projects | 🧪 Every project |
+|:-:|:-:|:-:|:-:|
+| **12** (of 37 planned) | **16** (of 36 planned) | **4** | tests · ADRs · runbook · teardown |
 
 ---
 
-## 🧭 Engineering Principles
+<a id="repos"></a>
 
-| Principle | How it shows up in my work |
-|---|---|
-| **Everything as code** | All infrastructure provisioned with Terraform; no console click-ops. State and variable files are kept out of Git. |
-| **Shift-left security** | Container images scanned with Trivy in CI before they reach ECR. CI authenticates to AWS through **OIDC federation**, so no long-lived access keys exist to leak. |
-| **Design for failure** | ECS deployment circuit breaker rolls back bad releases automatically. Pipelines route bad records to an SQS dead-letter queue instead of dropping them. |
-| **Test at every layer** | Unit tests with pytest, AWS services mocked with moto, API tests with httpx, and infrastructure tests with native `terraform test`. |
-| **Operability is part of done** | Each project has a runbook, ADRs, and architecture diagrams, so someone else can run it without me. |
-| **Cost awareness** | Every environment has a teardown path; resources are destroyed after verification and evidence is kept as screenshots. |
+## 🗂️ Featured Repositories
 
----
+<a href="https://github.com/masegoleroux-commits/Discovering-Cloud-Engineering">
+  <img src="assets/banners/discovering-cloud-engineering.svg" alt="Discovering Cloud Engineering" width="100%">
+</a>
 
-## 🎯 What I'm Working On
+**[Discovering-Cloud-Engineering](https://github.com/masegoleroux-commits/Discovering-Cloud-Engineering)** · my flagship AWS portfolio. Each project is deployed from Terraform, tested, written up with lessons learned, then torn down to keep costs near zero.
 
-- ☁️ **Multi-cloud:** porting my AWS patterns to **Azure** (Terraform + GitHub Actions OIDC to Azure)
-- 🤖 **MLOps:** deploying and monitoring models in production behind the same tested, scanned CI/CD pipelines
-- 📊 **Data platform:** building toward **Microsoft PL-300**, with **DP-600** and **DP-700** (Microsoft Fabric) on the roadmap
-- 🏗️ **Domain projects:** end-to-end builds on real sports and business datasets
+- ✅ **Cloud Engineering (01–07):** S3 static site, serverless API, hardened VPC + EC2 with SSM (no SSH), ECS Fargate CI/CD with Trivy + OIDC, event-driven pipeline, security baseline
+- ✅ **Networking (08–12):** Transit Gateway hub-and-spoke, NAT instance + Flow Logs, zero-internet VPC endpoints, Route 53 DNS Firewall, CloudFront + WAF high-availability web tier
+- 🔨 **In progress:** Security & Identity (secret rotation, KMS key policies, GuardDuty threat detection), then Observability, Kubernetes, Automation and FinOps
 
----
+<details>
+<summary><b>🔍 Deep dive: containerised API with secure CI/CD on ECS Fargate</b></summary>
+<br>
 
-## 💡 Core Skills
-
-| Area | Tools & Technologies |
-|---|---|
-| **Cloud (AWS)** | Compute: Lambda, EC2, ECS Fargate · Networking: VPC, ALB, API Gateway · Data: S3, DynamoDB · Orchestration & events: Step Functions, EventBridge, SQS · Security & governance: IAM (OIDC), CloudTrail, AWS Config, SSM · Registry: ECR |
-| **Infrastructure as Code** | Terraform (modules, variables/outputs, native `terraform test`, `terraform validate` in CI) |
-| **CI/CD & Containers** | GitHub Actions · Docker (multi-stage builds on `python:3.12-slim`) · Trivy image scanning · OIDC federation to AWS |
-| **Software Development** | Python (FastAPI, boto3) · SQL · Bash · C# · Java · C++ · HTML5 |
-| **Testing** | pytest · moto (AWS mocking) · httpx · `terraform test` |
-| **Databases** | DynamoDB · MS SQL Server (T-SQL) · PostgreSQL · MySQL · MongoDB · Firebase |
-| **Data & BI** | ETL/ELT pipeline design · pandas · scikit-learn · Apache Airflow · Power BI (DAX, semantic modelling) · Azure Data Factory · Microsoft Fabric |
-| **Engineering Practice** | ADRs · runbooks · architecture diagrams (draw.io) · requirements gathering · stakeholder communication |
-
-### 🚀 Currently Expanding Into
-Azure · Kubernetes · Observability (dashboards & alerting) · LLM integration · Agile/Scrum with Jira
-
----
-
-## 🏆 Highlights for Hiring Managers
-
-- ✅ **Secure delivery pipeline** — test → build → Trivy scan → push to ECR → deploy to ECS Fargate, authenticated with OIDC (zero stored AWS credentials), with automatic rollback on failed deployments
-- ✅ **Event-driven architecture** — S3 → EventBridge → Step Functions orchestration with separate validate and load stages, and a dead-letter queue for failed records
-- ✅ **Infrastructure tested like application code** — `terraform validate` and `terraform test` run alongside pytest suites in CI
-- ✅ **Governance from day one** — CloudTrail audit logging and AWS Config compliance rules, with real non-compliance findings captured and documented
-- ✅ **Documented decisions** — ADRs and runbooks for every project, written for the engineer who operates it next
-- ✅ **Currently available** for Cloud Engineer, DevOps Engineer, Software Developer, and AI Software Engineer roles in Johannesburg or remote
-
----
-
-## 🗂️ Featured Projects
-
-> ✅ *All six projects are built, verified, documented, and torn down, with architecture notes, ADRs, runbooks, and screenshots in **[Discovering-Cloud-Engineering](https://github.com/masegoleroux-commits/Discovering-Cloud-Engineering)**.*
-
----
-
-### 🚢 Containerised API with Secure CI/CD on ECS Fargate
-
-**Problem:** ship a containerised service to AWS on every push without storing cloud credentials in CI, without letting vulnerable images reach production, and without a bad release taking the service down.
-
-**Architecture:**
+**Problem:** ship a container to AWS on every push without storing cloud credentials in CI, without letting vulnerable images reach production, and without a bad release taking the service down.
 
 ```mermaid
 flowchart LR
@@ -109,20 +79,15 @@ flowchart LR
 |---|---|
 | **OIDC federation** instead of IAM access keys | CI gets short-lived credentials per run; there is no secret to rotate or leak |
 | **Trivy scan as a pipeline gate** | Vulnerabilities are caught before the image is pushed, not after it is running |
-| **Multi-stage Docker build** on a slim base | Smaller image, smaller attack surface, faster deploys |
 | **ECS Fargate** over EC2 | No servers to patch; the team manages tasks, not hosts |
 | **Deployment circuit breaker** | A failed release rolls back automatically — verified and captured in screenshots |
-| **`terraform test`** for the CI auth setup | The IAM/OIDC trust configuration is tested like code, because a mistake there is a security issue |
 
-**Stack:** Python · FastAPI · Docker · Trivy · GitHub Actions · AWS (ECS Fargate, ECR, ALB, IAM) · Terraform
+📁 [View project, ADRs and runbook](https://github.com/masegoleroux-commits/Discovering-Cloud-Engineering/tree/main/cloud-pro_5/05-ecs-fargate-cicd)
+</details>
 
-> 📁 *[View project, ADRs and runbook](https://github.com/masegoleroux-commits/Discovering-Cloud-Engineering/tree/main/cloud-pro_5/05-ecs-fargate-cicd)*
-
----
-
-### 🔄 Event-Driven CSV Data Pipeline
-
-**Problem:** ingest CSV files reliably as they arrive, reject bad data without losing it, and make every step of processing visible.
+<details>
+<summary><b>🔍 Deep dive: event-driven CSV data pipeline</b></summary>
+<br>
 
 ```mermaid
 flowchart LR
@@ -131,50 +96,102 @@ flowchart LR
   v -- invalid records --> dlq[[SQS dead-letter queue]]
 ```
 
-| Decision | Why |
+Processing starts when data lands (nothing runs while idle), Step Functions shows exactly where a run failed, and bad records go to a dead-letter queue for replay instead of being dropped. AWS calls are tested locally with **moto**.
+
+📁 [View project](https://github.com/masegoleroux-commits/Discovering-Cloud-Engineering/tree/main/cloud-pro_6/06-event-driven-csv-pipeline)
+</details>
+
+<br>
+
+<a href="https://github.com/masegoleroux-commits/SQL-Data-Engineering-Portfolio">
+  <img src="assets/banners/sql-data-engineering.svg" alt="SQL Data Engineering Portfolio" width="100%">
+</a>
+
+**[SQL-Data-Engineering-Portfolio](https://github.com/masegoleroux-commits/SQL-Data-Engineering-Portfolio)** · 36 SQL projects across four tracks. Every pipeline runs Bronze → Silver → Gold into a star schema, and **stops at the first failed test** — row counts, orphan keys and totals are reconciled back to the source.
+
+- ✅ **Core (6/6):** UEFA Champions League warehouse, SCD Type 2 history, a data quality framework, and query tuning on 2 million rows
+- ✅ **Sports (10/10):** World Cup since 1930, NBA Elo, five-league JSON pipeline with a Poisson model, F1 points engine, 5 Hz match tracking data
+- ⏳ **Next:** Banking (IFRS 9, AML monitoring, bank reconciliation) and AWS (Glue + Athena lake, Redshift Serverless, DMS change data capture)
+
+<br>
+
+<a href="https://github.com/masegoleroux-commits/Azure-Tier-Service-Desk">
+  <img src="assets/banners/azure-service-desk.svg" alt="Azure Tier 1 Service Desk" width="100%">
+</a>
+
+**[Azure-Tier-Service-Desk](https://github.com/masegoleroux-commits/Azure-Tier-Service-Desk)** · hands-on service desk work in a Microsoft Azure lab (Windows Server 2022 domain controller, Entra ID, Microsoft 365).
+
+| Project | What it shows |
 |---|---|
-| **Event-driven** (S3 → EventBridge) instead of polling | Processing starts when data lands; nothing runs or costs money while idle |
-| **Step Functions** to orchestrate separate validate and load stages | Each stage is small and testable, and the state machine shows exactly where a run failed |
-| **Dead-letter queue** for failures | Bad data is kept for inspection and replay rather than silently dropped |
-| **moto** for tests | AWS calls are tested locally in CI without deploying anything |
+| Service Desk Operations Lab | Joiner/mover/leaver automation, password resets and lockouts, MFA and SSPR, Exchange Online and Teams fixes, Group Policy |
+| Remote Support & Ticketing | Remote PowerShell fixes, SLAs, ten well-written tickets, and a knowledge base deployed to Azure Static Web Apps via GitHub Actions |
+| AI Service Desk Assistant | Copilot Studio agent grounded on the knowledge base; voicemail → ticket with Azure AI Speech + Azure OpenAI |
+| Smart Ticket Triage | Ticket classification, sentiment, PII redaction and translation with Azure AI Language and Translator |
 
-**Stack:** AWS (S3, EventBridge, Step Functions, Lambda, DynamoDB, SQS) · Python (boto3) · pytest · moto · Terraform · GitHub Actions
+<br>
 
-> 📁 *[View project](https://github.com/masegoleroux-commits/Discovering-Cloud-Engineering/tree/main/cloud-pro_6/06-event-driven-csv-pipeline)*
+<a href="https://github.com/masegoleroux-commits/AlgoTrail_Supreme">
+  <img src="assets/banners/algotrail-supreme.svg" alt="AlgoTrail Supreme" width="100%">
+</a>
 
----
-
-### ⚡ Serverless Notes API
-
-**Problem:** a REST API with no servers to manage, that scales to zero when idle.
-
-**Design:** API Gateway → Lambda (Python) → DynamoDB, provisioned in Terraform. CI runs the pytest suite and `terraform validate` on every push, so broken code or invalid infrastructure never merges.
-
-**Stack:** AWS (API Gateway, Lambda, DynamoDB) · Python · pytest · Terraform · GitHub Actions
-
-> 📁 *[View project](https://github.com/masegoleroux-commits/Discovering-Cloud-Engineering/tree/main/cloud-pro_3)*
+**[AlgoTrail_Supreme](https://github.com/masegoleroux-commits/AlgoTrail_Supreme)** · where it started: programming fundamentals and problem-solving exercises solved in Java, Python, JavaScript, C# and C++.
 
 ---
 
-### 🛡️ Platform & Security Foundations
+## 🏆 Highlights for Hiring Managers
 
-| Project | Technical focus | Link |
-|---|---|---|
-| **VPC + Hardened Web Server** | Custom VPC network design, EC2 hardening, administrative access through SSM Session Manager | [View](https://github.com/masegoleroux-commits/Discovering-Cloud-Engineering/tree/main/cloud-pro_4) |
-| **AWS Security Baseline** | CloudTrail audit logging, AWS Config managed rules, non-compliance findings documented | [View](https://github.com/masegoleroux-commits/Discovering-Cloud-Engineering/tree/main/cloud-pro_7) |
-| **Static Website on S3** | S3 static hosting, Terraform fundamentals | [View](https://github.com/masegoleroux-commits/Discovering-Cloud-Engineering/tree/main/cloud-pro_1) |
-| **UCL 2021/22 SQL Analysis** | T-SQL analysis of Champions League data on SQL Server | [View](https://github.com/masegoleroux-commits/SQL_Boulevard) |
+- ✅ **Secure delivery pipeline** — test → build → Trivy scan → ECR → ECS Fargate, authenticated with OIDC (zero stored AWS credentials), with automatic rollback
+- ✅ **Real network design** — Transit Gateway segmentation proved with Reachability Analyzer, workloads with no internet route, and DNS-layer blocking
+- ✅ **Infrastructure tested like application code** — `terraform test` with mocked AWS, pytest + moto, and live PASS/FAIL scripts per project
+- ✅ **Data you can trust** — SQL pipelines that reconcile to source and halt on a failed check
+- ✅ **Microsoft stack too** — Entra ID, Microsoft 365, PowerShell and Azure AI services, not only AWS
+- ✅ **Documented decisions** — ADRs, runbooks and an honest "lessons learned" for every project
+
+---
+
+<a id="principles"></a>
+
+## 🧭 Engineering Principles
+
+| Principle | How it shows up in my work |
+|---|---|
+| **Everything as code** | All infrastructure provisioned with Terraform; no console click-ops. State and variable files are kept out of Git. |
+| **Shift-left security** | Images scanned with Trivy in CI before they reach ECR. CI authenticates through **OIDC federation**, so no long-lived keys exist to leak. |
+| **Design for failure** | Deployment circuit breakers roll back bad releases; bad records go to a dead-letter queue instead of being dropped. |
+| **Test at every layer** | pytest, moto, httpx, native `terraform test`, and SQL reconciliation checks. |
+| **Operability is part of done** | Runbooks, ADRs and architecture diagrams, so someone else can run it without me. |
+| **Cost awareness** | Every environment has a teardown path; evidence is kept as screenshots. |
 
 ---
 
-### 🔜 Coming Next
+## 🎯 What I'm Working On
 
-- ☁️ **Azure port** — the event-driven pipeline rebuilt on Azure (Blob Storage → Event Grid → Functions) with Terraform and GitHub Actions OIDC
-- 📊 **Sports Analytics & AI Platform** — PostgreSQL warehouse, scikit-learn models, and Power BI dashboards for coaching, sports science, scouting, and commercial teams
-- ☁️ **Cloud Business Reporting Solution** — SQL Server → Azure Data Factory → Power BI semantic model with automated daily refresh
-- 🔄 **Airflow ETL Pipeline** — scheduled CSV loads into PostgreSQL with data quality checks, Docker, and GitHub Actions
+- 🔐 **AWS Security & Identity track:** secret rotation, KMS key policies, GuardDuty threat detection, Access Analyzer and ABAC
+- 🏦 **SQL Banking & AWS tracks:** IFRS 9, AML monitoring and reconciliation, then Glue, Athena and Redshift
+- ☁️ **Azure:** extending the service desk lab and porting my AWS patterns to Azure (Terraform + GitHub Actions OIDC)
+- 📊 **Certifications:** **Microsoft PL-300**, with **DP-600** and **DP-700** (Microsoft Fabric) on the roadmap
 
 ---
+
+<a id="skills"></a>
+
+## 💡 Core Skills
+
+| Area | Tools & Technologies |
+|---|---|
+| **Cloud (AWS)** | Compute: Lambda, EC2, ECS Fargate · Networking: VPC, Transit Gateway, VPC endpoints, Route 53, CloudFront, ALB · Data: S3, DynamoDB, RDS · Events: Step Functions, EventBridge, SQS · Security: IAM (OIDC), KMS, Secrets Manager, WAF, CloudTrail, AWS Config, SSM |
+| **Cloud (Azure & Microsoft)** | Entra ID · Active Directory · Microsoft 365 · Intune · Azure AI Language, Translator, Speech · Azure OpenAI · Copilot Studio · Power Automate · Static Web Apps |
+| **Infrastructure as Code** | Terraform (modules, native `terraform test`, `terraform validate` in CI) · CloudFormation |
+| **CI/CD & Containers** | GitHub Actions · Docker (multi-stage, non-root) · Trivy · OIDC federation |
+| **Software Development** | Python (FastAPI, boto3) · T-SQL · Bash · PowerShell · C# · Java · C++ |
+| **Testing** | pytest · moto · httpx · `terraform test` · SQL reconciliation tests |
+| **Databases** | MS SQL Server · PostgreSQL · DynamoDB · MySQL · MongoDB |
+| **Data & BI** | Medallion pipelines · star schemas · SCD Type 2 · pandas · scikit-learn · Power BI · Microsoft Fabric |
+| **Engineering Practice** | ADRs · runbooks · draw.io diagrams · ITSM, SLAs and ticket writing |
+
+---
+
+<a id="stack"></a>
 
 ## 💻 Tech Stack
 
@@ -192,6 +209,7 @@ flowchart LR
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnubash&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -226,14 +244,17 @@ flowchart LR
 
 ---
 
+<a id="contact"></a>
+
 ## 🤝 Let's Work Together
 
 I also take on **freelance projects**:
 
-- ☁️ **AWS infrastructure as code** — Terraform-managed environments that are reproducible and reviewable
+- ☁️ **AWS & Azure infrastructure as code** — Terraform-managed environments that are reproducible and reviewable
 - 🔁 **CI/CD pipelines** — GitHub Actions with automated tests, image scanning, and keyless (OIDC) cloud deployments
 - 🔄 **Event-driven data pipelines** — serverless ingestion, validation, and loading with failure handling built in
 - 🛡️ **Cloud governance baselines** — audit logging and compliance rules from day one
+- 🗄️ **SQL data pipelines** — tested medallion pipelines and star schemas that reconcile to source
 - 📋 **Project delivery** — requirements, architecture, ADRs, runbooks, and handover documentation
 
 No jargon, no fluff — just working, documented systems your team can operate.

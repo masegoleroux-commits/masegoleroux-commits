@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="SQL Data Engineering">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#111A2E"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.82" cy="0.5" r="0.55">
+    <stop offset="0" stop-color="#2EC4B6" stop-opacity="0.30"/><stop offset="1" stop-color="#2EC4B6" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2EC4B6"/><stop offset="1" stop-color="#8B7CF6"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/>
+  </pattern>
+</defs>
+<rect width="1280" height="320" rx="18" fill="url(#bg)"/>
+<rect width="1280" height="320" rx="18" fill="url(#grid)"/>
+<rect width="1280" height="320" rx="18" fill="url(#glow)"/>
+<rect x="0" y="0" width="1280" height="6" fill="url(#bar)"/>
+<text x="64" y="78" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="16" letter-spacing="3" fill="#2EC4B6">T-SQL · MEDALLION · STAR SCHEMAS</text>
+<text x="64" y="142" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="54" font-weight="800" fill="#FFFFFF">SQL Data Engineering</text>
+<text x="64" y="190" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" fill="#9FB0C8">Pipelines modelled, tested and reconciled back to the source</text>
+<rect x="64" y="236" width="168" height="34" rx="17" fill="#2EC4B6" fill-opacity="0.14" stroke="#2EC4B6" stroke-opacity="0.55"/><text x="148" y="258" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">16 projects built</text>
+<rect x="244.2" y="236" width="108" height="34" rx="17" fill="#2EC4B6" fill-opacity="0.14" stroke="#2EC4B6" stroke-opacity="0.55"/><text x="298" y="258" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">36 planned</text>
+<rect x="364.2" y="236" width="108" height="34" rx="17" fill="#2EC4B6" fill-opacity="0.14" stroke="#2EC4B6" stroke-opacity="0.55"/><text x="418" y="258" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">SQL Server</text>
+<rect x="484.2" y="236" width="211" height="34" rx="17" fill="#2EC4B6" fill-opacity="0.14" stroke="#2EC4B6" stroke-opacity="0.55"/><text x="590" y="258" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#E6EDF3">Bronze · Silver · Gold</text>
+<g transform="translate(900,40)"><ellipse cx="170" cy="24" rx="130" ry="20" fill="#C98A5A" fill-opacity="0.25" stroke="#C98A5A" stroke-width="2.5"/><path d="M40 24 v30 a130 20 0 0 0 260 0 v-30" fill="#C98A5A" fill-opacity="0.12" stroke="#C98A5A" stroke-width="2.5"/><text x="170" y="58" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="3" fill="#C98A5A">BRONZE</text><ellipse cx="170" cy="102" rx="130" ry="20" fill="#A8B0BB" fill-opacity="0.25" stroke="#A8B0BB" stroke-width="2.5"/><path d="M40 102 v30 a130 20 0 0 0 260 0 v-30" fill="#A8B0BB" fill-opacity="0.12" stroke="#A8B0BB" stroke-width="2.5"/><text x="170" y="136" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="3" fill="#A8B0BB">SILVER</text><ellipse cx="170" cy="180" rx="130" ry="20" fill="#E8B931" fill-opacity="0.25" stroke="#E8B931" stroke-width="2.5"/><path d="M40 180 v30 a130 20 0 0 0 260 0 v-30" fill="#E8B931" fill-opacity="0.12" stroke="#E8B931" stroke-width="2.5"/><text x="170" y="214" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="3" fill="#E8B931">GOLD</text><circle cx="330" cy="215" r="18" fill="#2EC4B6"/><path d="M321 215 l6 6 l12 -13" fill="none" stroke="#0B1220" stroke-width="4" stroke-linecap="round"/></g>
+</svg>
