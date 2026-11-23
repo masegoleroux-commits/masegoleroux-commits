@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Masego 👋</h1>
+<h1 align="center">Hi, I'm Kamogelo Mashigo 👋</h1>
 <h3 align="center">Cloud & DevOps Engineer · AWS · Azure · Terraform · SQL Data Engineering · ZA 📍</h3>
 
 <p align="center">
